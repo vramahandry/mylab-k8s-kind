@@ -13,9 +13,9 @@ spec:
 
   # Source of the application manifests
   source:
-    repoURL: https://github.com/vramahandry/gitops-cert-level-2-examples.git
+    repoURL: https://github.com/vramahandry/argocd-core-infra.git
     targetRevision: HEAD
-    path: ./app-of-apps/my-app-list
+    path: ./root-app
    
     # directory
     directory:
